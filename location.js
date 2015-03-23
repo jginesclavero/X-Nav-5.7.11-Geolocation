@@ -1,8 +1,6 @@
 jQuery(document).ready(function(){
-if (Modernizr.geolocation) {
+	if (Modernizr.geolocation) {
         $("#get_position").click(getLocation);
-    } else {
-       alert("No soportado");
     }
 });
 
